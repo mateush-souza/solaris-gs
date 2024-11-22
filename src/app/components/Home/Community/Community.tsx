@@ -5,20 +5,20 @@ const Community = () => {
   const cards = [
     {
       id: 1,
-      title: "Faça cálculos",
-      description: "Use nossa precisão para te ajudar",
+      title: "Cálculos Rápidos e Confiáveis",
+      description: "Obtenha resultados precisos em poucos segundos",
       icon: "/images/icones/time.svg",
     },
     {
       id: 2,
-      title: "Faça cálculos",
-      description: "Use nossa precisão para te ajudar",
+      title: "Calculadora Personalizada",
+      description: "Preencha os dados e veja como seus painéis solares podem transformar o meio ambiente.",
       icon: "/images/icones/calculator.svg",
     },
     {
       id: 3,
-      title: "Faça cálculos",
-      description: "Use nossa precisão para te ajudar",
+      title: "Contribua para o Planeta",
+      description: "Descubra como adotar energia solar pode reduzir emissões e criar um futuro mais verde.",
       icon: "/images/icones/globe.svg",
     },
   ];
@@ -37,7 +37,7 @@ const Community = () => {
         {cards.map((card) => (
           <div
             key={card.id}
-            className="flex flex-col items-center bg-gradient-to-b from-cyan-500 to-green-500 text-black p-4 rounded-lg shadow-lg w-52 z-10"
+            className="flex flex-col items-center text-center bg-gradient-to-b from-cyan-500 to-green-500 text-black p-4 rounded-lg shadow-lg w-52 min-h-[268px] z-10"
           >
             <div className="w-16 h-16 mb-4">
               <Image
