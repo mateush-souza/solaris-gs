@@ -8,11 +8,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        supportBlack: '#1F1F1F',
+        primaryBase: '#ffff',
+        gradientStart: '#00ABD0',
+        gradientEnd: '#05BA7B'
       },
-    },
+      backgroundImage: {
+        customGradient: 'linear-gradiente(to left, var(--tw-gradient-stops))'
+      }
+    }
   },
   plugins: [],
 } satisfies Config;
