@@ -14,7 +14,7 @@ export default function Cards() {
       rm: "RM558424",
       imageSrc: "/images/members/mateus.png",
       github: "https://github.com/mateush-souza",
-      linkedin: "https://www.linkedin.com/in/mateus-henrique/",
+      linkedin: "https://www.linkedin.com/in/mateus-henrique-525497268/?originalSubdomain=br",
     },
     {
       name: "Lucas de Assis Fialho",
