@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Cards() {
   const participants = [
     {
-      name: "Cauan Aranega S Passos",
+      name: "Cauan Aranega Schot Passos",
       rm: "RM555466",
       imageSrc: "/images/members/cauan.png",
       github: "https://github.com/cashot01",
