@@ -14,12 +14,12 @@ const Footer = () => {
       ],
     },
     {
-      title: 'Institucional',
+      title: 'Apoie o Projeto',
       links: [
-        'Faça parte da comunidade',
-        'Ajude os desenvolvedores',
+        'Faça Parte da Comunidade',
+        'Ajude a Divulgar',
         'Conheça o time',
-        'Indique para amigos',
+        'Seja um Colaborador',
       ],
     },
     {
