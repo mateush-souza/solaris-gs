@@ -1,0 +1,8 @@
+YOUTUBE:
+https://www.youtube.com/watch?v=XytV4XSHkdU
+
+GITHUB:
+https://github.com/mateush-souza/solaris-gs
+
+VERCEL:
+https://solaris-gs-lltg.vercel.app/
