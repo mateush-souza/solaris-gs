@@ -11,7 +11,7 @@ export const navLinks = [
     },
     {
         id: 3,
-        url: "#about-us",
+        url: "/#about-us",
         label: "Sobre nós"
     },
     {

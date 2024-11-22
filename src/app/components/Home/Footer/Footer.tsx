@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 // import Image from 'next/image';
 
@@ -57,34 +58,22 @@ const Footer = () => {
         ))}
 
         <div>
-          <h4 className="text-white font-semibold mb-4">Conheça nossas redes sociais</h4>
+          <h4 className="text-white font-semibold mb-4">Conheça nosso código</h4>
+          <Link href={'https://github.com/mateush-souza/solaris-gs'}>
           <div className="flex space-x-4 mb-4">
             {socialIcons.map((icon, idx) => (
               <div
                 key={idx}
                 className="w-8 h-8 bg-no-repeat bg-cover"
                 style={{
-                  backgroundImage: "url('/images/social-icons.png')",
+                  backgroundImage: "url('/images/icones/GitHub.svg')",
                   backgroundPosition: icon.position,
                 }}
                 aria-label={icon.name}
               ></div>
             ))}
           </div>
-          {/* <div className="flex space-x-4">
-            <Image
-              src="/images/appstore.png"
-              alt="App Store"
-              width={120}
-              height={40}
-            />
-            <Image
-              src="/images/googleplay.png"
-              alt="Google Play"
-              width={120}
-              height={40}
-            />
-          </div> */}
+          </Link>
         </div>
       </div>
     </footer>
