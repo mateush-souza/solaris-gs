@@ -7,10 +7,10 @@ const Hero = () => {
     <div className="w-full pt-[10vh] md:pt-[3vh] h-screen bg-gradient-to-b from-black via-[#001e1d] to-[#009688] overflow-hidden relative">
       <div className="text-white min-h-screen flex flex-col items-center justify-center space-y-5">
         <p className="text-sm uppercase text-gray-400">
-          lorem lorem lorem lorem lorem lorem
+          Faça parte da mudança para um futuro mais sustentável.
         </p>
         <h1 className="text-center text-4xl sm:text-6xl font-bold">
-          Lorem Ipsum Lorem <br /> Ipsum Lorem Ipsum Lorem
+          Descubra Seu Impacto Ambiental<br /> com Energia Solar
         </h1>
         <div className="flex flex-wrap justify-center gap-3">
           <div className="flex items-center space-x-2 border border-gray-400 rounded-lg px-4 py-2 text-sm max-w-xs max-h-12">
@@ -41,7 +41,7 @@ const Hero = () => {
             <span>Veja estatísticas no gráfico</span>
           </div>
         </div>
-        <Link href={'/login'}>
+        <Link href={'/calculadora'}>
           <button className="mt-8 bg-gradient-to-r from-gradientStart to-gradientEnd hover:from-gradientEnd hover:to-gradientStart px-6 py-3 text-xs sm:text-base font-medium rounded-full shadow-lg flex items-center">
             Quero usar a calculadora!
             <Image

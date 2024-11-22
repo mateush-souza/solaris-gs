@@ -21,7 +21,7 @@ export const Modal = ({
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-white rounded-lg p-6 w-96">
-        <h2 className="text-lg font-bold mb-4">{title}</h2>
+        <h2 className="text-lg font-bold mb-4 text-black">{title}</h2>
         {content && <p className="text-gray-700 mb-4">{content}</p>}
         <div className="flex justify-end gap-2">
           {cancelText && (

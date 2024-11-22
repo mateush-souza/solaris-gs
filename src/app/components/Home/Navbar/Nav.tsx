@@ -32,7 +32,7 @@ const Nav = ({ openNav }: Props) => {
     }, []);
 
     return (
-        <div className={`fixed ${navBg ? 'bg-supportBlack' : "fixed"} h-[12vh] z-[10]  w-full transition-all duration-300`}>
+        <div className={`fixed ${navBg ? 'bg-supportBlack' : "fixed"} h-[12vh] z-[99]  w-full transition-all duration-300`}>
             <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
                 <Image
                     src="/images/logo.png"

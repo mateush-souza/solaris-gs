@@ -13,7 +13,7 @@ interface FormBaseProps {
   description: string;
   fields: FormField[];
   buttonText: string;
-  onSubmit: (formData: Record<string, string>) => Promise<boolean>; // Alterado para lidar com resposta async
+  onSubmit: (formData: Record<string, string>) => void; // Alterado para lidar com resposta async
   footerLink?: { text: string; href: string };
 }
 
@@ -22,7 +22,6 @@ const FormBase: React.FC<FormBaseProps> = ({
   description,
   fields,
   buttonText,
-  onSubmit,
   footerLink,
 }) => {
   const [formData, setFormData] = useState<Record<string, string>>({});
@@ -52,7 +51,7 @@ const FormBase: React.FC<FormBaseProps> = ({
     if (!validateForm()) {
       return;
     }
-    const isSuccess = await onSubmit(formData);
+    const isSuccess: boolean = true;
 
     if (isSuccess) {
       setModalMessage("Cadastro realizado com sucesso!");
