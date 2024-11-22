@@ -7,10 +7,10 @@ const Footer = () => {
     {
       title: 'Institucional',
       links: [
-        'Faça parte da comunidade',
-        'Ajude os desenvolvedores',
-        'Conheça o time',
-        'Indique para amigos',
+        'Sobre Nós',
+        'Nossa Missão',
+        'Valores e Compromisso',
+        'Contato',
       ],
     },
     {
