@@ -23,12 +23,12 @@ const Footer = () => {
       ],
     },
     {
-      title: 'Institucional',
+      title: 'Recursos',
       links: [
-        'Faça parte da comunidade',
-        'Ajude os desenvolvedores',
-        'Conheça o time',
-        'Indique para amigos',
+        'Blog de Sustentabilidade',
+        'FAQ - Perguntas Frequentes',
+        'Termos de Uso',
+        'Política de Privacidade',
       ],
     },
   ];
