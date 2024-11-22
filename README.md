@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Calculadora de Impacto Ambiental com Energia Solar**
 
-## Getting Started
+Bem-vindo(a) à *Calculadora de Impacto Ambiental com Energia Solar*! Este é um projeto desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS** que permite calcular e visualizar o impacto ambiental da instalação de painéis solares, promovendo a conscientização sobre a redução de CO₂.
 
-First, run the development server:
+---
 
-```bash
+## **📋 Funcionalidades**
+
+- **Cálculo do impacto ambiental** com base em:
+  - Área disponível
+  - Número de painéis solares
+  - Horas de sol por dia
+- Histórico de cálculos personalizados para cada usuário
+- Visualização gráfica do impacto ambiental ao longo do tempo
+- Sistema de autenticação (cadastro/login)
+
+---
+
+## **🚀 Tecnologias**
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.js](https://nextjs.org/) (com estrutura de pastas **App Router**)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Node.js](https://nodejs.org/) para gerenciamento de dependências
+
+---
+
+## **📦 Pré-requisitos**
+
+Antes de começar, você precisa ter instalado em sua máquina:
+
+- [Node.js](https://nodejs.org/) (versão 16 ou superior recomendada)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+---
+
+## **⚙️ Como executar o projeto**
+
+1. **Clone o repositório**
+
+   ```bash
+   git clone https://github.com/mateush-souza/solaris-gs.git
+
+Acesse a pasta do projeto
+
+bash
+Copiar código
+cd calculadora-impacto-ambiental
+Instale as dependências
+
+bash
+Copiar código
+npm install
+ou, se estiver usando yarn:
+
+bash
+Copiar código
+yarn install
+Execute o servidor de desenvolvimento
+
+bash
+Copiar código
 npm run dev
-# or
+ou
+
+bash
+Copiar código
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse a aplicação
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra seu navegador e acesse: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **🛠 Scripts disponíveis**
+dev: Inicia o servidor de desenvolvimento.
+build: Gera a build de produção do projeto.
+start: Inicia o servidor com a build de produção.
+lint: Executa o linter para análise estática do código.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## **🎨 Estilização**
+A estilização foi implementada utilizando Tailwind CSS. Caso precise personalizar o tema ou adicionar configurações, modifique o arquivo tailwind.config.js.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
