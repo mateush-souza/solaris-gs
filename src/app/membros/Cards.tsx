@@ -7,7 +7,7 @@ export default function Cards() {
       rm: "RM555466",
       imageSrc: "/images/members/cauan.png",
       github: "https://github.com/cashot01",
-      linkedin: "https://www.linkedin.com/in/cauan-aranega/",
+      linkedin: "https://www.linkedin.com/in/cauan-aranega-schot-passos-2aa5b8286/",
     },
     {
       name: "Mateus Henrique de Souza",
