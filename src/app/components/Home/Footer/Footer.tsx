@@ -7,19 +7,19 @@ const Footer = () => {
     {
       title: 'Institucional',
       links: [
-        'Faça parte da comunidade',
-        'Ajude os desenvolvedores',
-        'Conheça o time',
-        'Indique para amigos',
+        'Sobre Nós',
+        'Nossa Missão',
+        'Valores e Compromisso',
+        'Contato',
       ],
     },
     {
-      title: 'Institucional',
+      title: 'Apoie o Projeto',
       links: [
-        'Faça parte da comunidade',
-        'Ajude os desenvolvedores',
+        'Faça Parte da Comunidade',
+        'Ajude a Divulgar',
         'Conheça o time',
-        'Indique para amigos',
+        'Seja um Colaborador',
       ],
     },
     {
