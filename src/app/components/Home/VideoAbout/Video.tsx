@@ -19,15 +19,7 @@ const Video = () => {
                             <span className="w-3 sm:w-4 lg:w-4 h-3 sm:h-4 lg:h-4 bg-green-500 rounded-full"></span>
                         </div>
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <button className="w-10 sm:w-12 lg:w-16 h-10 sm:h-12 lg:h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                                <svg
-                                    className="w-6 sm:w-8 lg:w-10 h-6 sm:h-8 lg:h-10 text-black"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path d="M8 5v14l11-7z" />
-                                </svg>
-                            </button>
+                        <iframe width="520" height="250" src="https://www.youtube.com/embed/wxWrCoTfYIc?si=4msY9XIPoDz7NUbu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                 </div>
